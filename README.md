@@ -43,7 +43,7 @@ function YourComponent() {
     <div onClick={() => setUser({...user, name: 'John Doe'})}>
       {user.name}
     </div>
-  )
+  );
 }
 ```
 
